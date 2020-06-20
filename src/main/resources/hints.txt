@@ -1,0 +1,2 @@
+1) To define List with any data type, define list as List[_]
+2)
