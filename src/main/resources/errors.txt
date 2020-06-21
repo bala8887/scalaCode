@@ -1,0 +1,7 @@
+1) Missed = between return type of a function and {
+  for example, "def main() : Unit = {" written without = "def main() : Unit {"
+2) try/catch block, no need for match statement. directly case can be written without match
+3) if we want to catch all throwables, then make case _ : throwables. this is a good practice.
+   if "Throwable" hasn't been provided, then the code throws an exception.
+   warning: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.
+                case _ => println("exception")
