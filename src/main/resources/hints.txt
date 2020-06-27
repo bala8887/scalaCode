@@ -1,2 +1,7 @@
 1) To define List with any data type, define list as List[_]
-2)
+2) for key, value pair operations, instead of using a Map, we can try this using Tuples.
+    val numPairs = List((2, 5), (3, -7), (20, 56))
+    for ((a, b) <- numPairs) {
+      println(a * b)
+    }
+3)

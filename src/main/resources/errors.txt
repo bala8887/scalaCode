@@ -5,3 +5,13 @@
    if "Throwable" hasn't been provided, then the code throws an exception.
    warning: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.
                 case _ => println("exception")
+4) using same variable name again within and outside loop. For example, used i with and outside loop.
+5) object DataTypeMatch {
+   	def identifyDataType(a : Any) : Unit =  {
+   		a match {
+   			case s : String => println("String")
+   			case l : List[Any] => println("List")
+   			case _ => println("Not a known datatype")
+   		}
+   	}
+   }
