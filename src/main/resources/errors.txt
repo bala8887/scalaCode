@@ -15,3 +15,5 @@
    		}
    	}
    }
+6) avoid using Integer in scala. should use Int, native data type for scala.
+7) avoid giving '' in scala. it is considered as characters instead of strings.

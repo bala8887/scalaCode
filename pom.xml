@@ -8,5 +8,10 @@
     <artifactId>scala1</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependency>
+        <groupId>com.amazonaws</groupId>
+        <artifactId>aws-java-sdk</artifactId>
+        <version>1.11.816</version>
+    </dependency>
     
 </project>

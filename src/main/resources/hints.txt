@@ -4,4 +4,5 @@
     for ((a, b) <- numPairs) {
       println(a * b)
     }
-3)
+3) yield can be used instead of return for FOR loop. need to check few things related to yield.
+4) Array functions : https://alvinalexander.com/scala/array-class-methods-examples-syntax/

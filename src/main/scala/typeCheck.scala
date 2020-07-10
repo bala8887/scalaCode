@@ -10,3 +10,8 @@ object typeCheck {
 }
 
 //List[Any] can also be given as List[_]
+
+
+val a ="""This is
+         |    a multiline
+         |    String""".stripMargin
