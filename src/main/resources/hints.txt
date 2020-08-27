@@ -6,3 +6,26 @@
     }
 3) yield can be used instead of return for FOR loop. need to check few things related to yield.
 4) Array functions : https://alvinalexander.com/scala/array-class-methods-examples-syntax/
+5) To assign more than one element in variable declaration, val (x, y, z) = (1, 2, 3)
+6) List Methods :
+    a)  To create a empty list, List() or Nil
+    b) "first"::"second"::"third"::Nil creates a list as List("first","second","third"). Last element should be Nil. If not, the statement will throw an error
+    c) List("a", "b") ::: List("c", "d") gives output of List("a", "b", "c", "d")
+    d) count function : thrill.count(a => a == "fill") or thrill.count(_ == "fill") this statement can also be written as
+        i) def check(a : String) = {a == "fill"}
+        ii) thrill.count(check)
+    e) thrill.drop(2) => drops the first two elements
+    f) thrill.dropRight(3) => drops the last two elements
+    g) how to drop only one element - covered in a detailed way in the next point
+    h) instead of checking count operation and if condition, should try exists and forall. however the difference between exists and forall is exists check for
+        at least element to satisfy filter condition, but forall expects all elements to satisfy the filter condition.
+    i) Useful functions : mkString [working for both int and string], head, last, init, tail, init, tail, isEmpty
+    j) to add an element in list, should :+ or +:
+    k) reverse - used to reverse a list
+    // Not working - should not use remove l) remove - to remove a element that satisfies the condition
+    m) sort - to sort elements based on the given function. For example, to sort all elements within a function,
+7) how to drop one element from List
+    1) through slice operation lst.splice()
+    2)
+8) Scala underscore usage _ : https://ananthakumaran.in/2010/03/29/scala-underscore-magic.html
+9)

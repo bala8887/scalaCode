@@ -15,3 +15,9 @@ object MapFirstFunc {
 
   }
 }
+
+//Another implementation
+val m:List[String]=List("Orange","Apple","WaterMElon","Grapes","Kuta")
+val a=m.zipWithIndex
+val b=a.map((k)=>(k._2,k._1))
+println(b.sortBy(h=>h._2.size))

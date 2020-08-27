@@ -17,3 +17,6 @@
    }
 6) avoid using Integer in scala. should use Int, native data type for scala.
 7) avoid giving '' in scala. it is considered as characters instead of strings.
+8) if the element += needs to be used in data structures like Map, then it should
+   be declared as var instead of val. Also, +: in array and list adds the element and create
+   a new variable. however, += in map appends/updates the value in the map.

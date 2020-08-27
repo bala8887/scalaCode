@@ -25,3 +25,11 @@ object TupleExample {
 //     | }
 
 // need to implement in foreach instead of for loop wherever applicable
+
+/*val tpl = (1, 2, "3" ,4)
+
+tpl match {
+  case i : (Int, Int, String, Int) => println(tpl._2)
+  case _ => println(tpl._3)
+}
+*/
